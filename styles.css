@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  background-image: url("images/StoreFrontImage.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1571px;
+  height: 150px;
+  background-image: linear-gradient(gold, goldenrod, yellow);
+  border: 3px solid brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#BobsBeanery {
+  margin: 0;
+  height: 57px;
+  padding-top: 0;
+}
+
+#socMediaEtc {
+  float: right;
+  margin-left: 4em;
+  margin-top: 0;
+  padding: 0.35em;
+  background-image: linear-gradient(gold, goldenrod, yellow);
+  height: 1em;
+  width: 150px;
+}
+
+#socMediaEtc ul.socList {
+  margin-top: 0;
+  width: 70px;
+  height: 24px;
+  left: 25px;
+  top: 5px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 3px;
+}
+
+.icon {
+  height: 20px;
+}
+
+#header {
+  margin-top: 50px;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#beanBox {
+  width: 1245px;
+  height: 1266px;
+  border: 2px solid brown;
+  background-image: linear-gradient(gold, goldenrod, yellow);
+}
+
+#row1 {
+  margin-top: 25px;
+}
+#row2,
+#row3 {
+  margin-top: 5px;
+}
+
+#orderBox1,
+#orderBox2,
+#orderBox3,
+#orderBox4,
+#orderBox5,
+#orderBox6,
+#orderBox7,
+#orderBox8,
+#orderBox9 {
+  width: 360px;
+  height: 400px;
+  border: 1px solid brown;
+  background-color: bisque;
+}
+
+#Ayocote-Negro,
+#Ayocote-Morado,
+#Cranberry,
+#Domingo-Rojo,
+#Hidasta-Red,
+#King-City-Pink,
+#Large-White-Lima,
+#Mayocoba,
+#Santa-Maria-Pinquito {
+  width: 360px;
+  height: 240px;
+  background-size: 360px 240px;
+}
+
+#Ayocote-Negro {
+  background-image: url("images/Ayocote-Negro.jpg");
+}
+
+#Ayocote-Morado {
+  background-image: url("images/Ayocote-Morado-Bean.jpg");
+}
+
+#Cranberry {
+  background-image: url("images/Cranberry-Bean.jpg");
+}
+
+#Domingo-Rojo {
+  background-image: url("images/Domingo-Rojo-Bean.jpg");
+}
+
+#Hidasta-Red {
+  background-image: url("images/Hidasta-Red-Bean.jpg");
+}
+
+#King-City-Pink {
+  background-image: url("images/King-City-Pink-Bean.jpg");
+}
+
+#Large-White-Lima {
+  background-image: url("images/Large-White-Lima-Bean.jpg");
+}
+
+#Mayocoba {
+  background-image: url("images/Mayocoba-Bean.jpg");
+}
+
+#Santa-Maria-Pinquito {
+  background-image: url("images/Santa-Maria-Pinquito-Bean.jpg");
+}
+
+#moreInfo {
+  width: 324px;
+  height: 1266px;
+  border: 2px solid brown;
+  background-image: linear-gradient(gold, goldenrod, yellow);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.headerButton,
+.orderButton {
+  width: 100px;
+  height: 30px;
+  background-color: gold;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-left: 0;
+  color: brown;
+  border: 1px solid brown;
+  border-radius: 5px;
+}
+
+.orderButton {
+  margin-left: 125px;
+}
+
+.orderButton:hover,
+.headerButton:hover {
+  background-color: brown;
+  color: orange;
+}
+
+.para {
+  font-size: 18px;
+  padding: 3px;
+  color: brown;
+}
+
+.companyName {
+  height: 45px;
+  font-family: Pacifico;
+  font-size: 2em;
+  color: brown;
+  margin-top: 0;
+  text-shadow: 1px 1px 1px darkblue;
+}
+
+.moreStuff {
+  width: 330px;
+  height: 45px;
+  font-family: Pacifico;
+  font-size: 2em;
+  color: brown;
+  margin-top: 0;
+  margin-left: 40px;
+  text-shadow: 1px 1px 1px darkblue;
+}
+
+.moreInfoStuff {
+  width: 310px;
+  margin-left: 3px;
+  border: 2px solid brown;
+  background-color: bisque;
+  color: brown;
+  font-size: 1.4em;
+  padding: 3px;
+}
+
+.hrTag {
+  height: 3px;
+  background-color: brown;
+  border: none;
+}
+
+.recipeLi {
+  text-decoration: none;
+  color: brown;
+}
+
+.recipeLi:hover {
+  color: bisque;
+  background-color: brown;
+}
+
+#footer {
+  width: 1571px;
+  height: 100px;
+  background-image: linear-gradient(yellow, goldenrod, gold);
+
+  border: 3px solid brown;
+  align-items: center;
+  align-content: center;
+  vertical-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#contactButtons {
+  align-items: center;
+  align-content: center;
+  vertical-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
